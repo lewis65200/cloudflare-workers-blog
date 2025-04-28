@@ -1,13 +1,14 @@
 'use strict';
 const OPT = {
     "user" : "admin", //后台密码请修改
-    "password" : "yourSelfPwd", //后台密码
-    "siteDomain" : "blog.gezhong.vip",// 域名(不带https 也不带/)
-    "siteName" : "CF workers blog",//博客名称
-    "siteDescription":"A Blog Powered By Cloudflare Workers and KV",//博客描述
-    "keyWords":"cloudflare,KV,workers,blog",//关键字
-    "cacheZoneId":"cc868e8edce4027ad4a735741111111",//清理缓存用 cf区域 ID
-    "cacheToken":"LNxRWH-MPMIGnp8qhyT8FUsjDRN6tdOnmaaaaaaa",//清理缓存用 cf API token
+    "password" : "Lsy@525658", //后台密码
+    "siteDomain" : "kezhan.com.hk",// 域名(不带https 也不带/)
+    "siteName" : "课站",//博客名称
+    "siteDescription":"课站诞生于对技术与成长的热爱，专注分享IT、互联网、软件开发、项目管理、产品管理、大数据与人工智能应用领域的优质内容。我们倡导“系统学习，实战成长”，以深入浅出的文章、项目实操案例、行业洞察与技能提升指南，陪伴每一位技术人成长、进阶、实现自我价值。无论你是初学者，还是有经验的技术从业者，在课站，你都能找到属于自己的成长路径与灵感源泉。",//博客描述
+    "keyWords":"    "keyWords":"课站, IT博客, 技术博客, Java开发, Spring生态, 大数据, 人工智能, AI应用, 软件开发, 后端开发, 项目管理, 产品管理, 技术成长, 职业成长, 技术实战, 编程学习, 数字化转型, 技术赋能, 开发者社区",//关键字
+",//关键字
+    "cacheZoneId":"a444cf8d73bb8924b6e7484d1fd5055d",//清理缓存用 cf区域 ID
+    "cacheToken":"KaVwS07QmUSjfYBD_OS_3-QvklU7356ZW9sv3UeD",//清理缓存用 cf API token
 	
     "pageSize" : 5,//每页文章数
     "recentlySize" : 6,//最近文章数
